@@ -1,0 +1,178 @@
+
+body{background:#FFF;font-size:12px;}
+body, td,th, input, textarea, select, button,div{color:#666; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;font-family: Arial,Helvetica,sans-serif;resize:none;}
+button{cursor: pointer;}
+input{border: medium none;position: static;position: static;vertical-align:-2px;margin:0px;}
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, div,fieldset {margin:0; padding:0;}
+a img{border:none;}
+em, cite, th{font-style:normal; font-weight:normal;}
+table{border-collapse:collapse;}
+
+body{
+    background-color:#ffffff;
+}
+
+body {
+  background: url("../img/bg-yellow.png") repeat;
+  MARGIN-LEFT:auto;
+    MARGIN-RIGHT:auto;
+    width:980px;
+}
+#header {
+  background: url("../img/nav.png") no-repeat center -201px;
+  height: 145px;
+  color: #fff;
+}
+.side ul{
+  padding: 0;
+}
+.side ul li{
+  list-style: none;
+}
+#side {
+  float: left;
+  margin-right: 12px;
+  display:inline;
+  width: 270px;
+  margin: 0 auto;
+}
+.panel_head dt {
+  font-weight: bold;
+}
+#side .panel {
+  border: 1px solid #fff;
+  margin-bottom: 9px;
+  background: #fff;
+}
+#side .panel_head {
+  background: #f5f5f5;
+  height: 29px;
+  line-height: 29px;
+  padding-left: 11px;
+  color: #333;
+}
+#side .panel_body {
+  padding: 15px 16px 17px;
+  word-break: break-all;
+}
+#side .panel_body iframe {
+  max-width: 240px;
+}
+#side .panel_body hr {
+  height: 0px;
+  border: 0;
+  border-bottom: 1px dotted #eee;
+}
+#side .panel {
+  border: 1px solid #ccc;
+}
+#side .panel a:link,
+#side .panel a:visited {
+  color: #c88326;
+}
+#side .panel a:hover {
+  color: #e63;
+}
+
+
+#side .profile {
+  padding-top: 29px;
+  padding-bottom: 5px;
+}
+#side .profile #blog_userface {
+  text-align: center;
+}
+#side .profile #blog_userface a {
+  display: inline-block;
+}
+#side .profile #blog_userface .user_name {
+  color: #666;
+  font: 16px/20px 'microsoft yahei';
+  text-decoration: none;
+}
+#side .profile #blog_userface span {
+  display: block;
+  margin: 15px 0;
+}
+#side .profile #blog_rank {
+  padding: 4px;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 13px;
+}
+#side .profile #blog_rank li {
+  margin-bottom: 11px;
+}
+#side .profile #blog_statistics:after {
+  content: '.';
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+#side .profile #blog_statistics li {
+  float: left;
+  width: 114px;
+  color: #333;
+  margin-bottom: 12px;
+}
+#side .profile #blog_statistics li span {
+  color: #666;
+}
+#side #panel_Search {
+  position: relative;
+}
+#side #panel_Search .blogsearch {
+  width: 192px;
+  border: 1px solid #ccc;
+  padding: 7px 30px 7px 7px;
+}
+#side #panel_Search #btnSubmit {
+  border: 0;
+  background: url("../img/skin-search.png") no-repeat center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50px;
+  right: 30px;
+  text-indent: -100px;
+  cursor: pointer;
+}
+#side #panel_Search #btnSubmit:hover {
+  opacity: 0.7;
+}
+#side #panel_Category {
+  color: #000;
+}
+#side #panel_Category ul {
+  margin-bottom: -9px;
+}
+#side #panel_Category #sp_column {
+  margin-bottom: -11px;
+}
+#side #panel_Category img {
+  border: 1px solid #ccc;
+}
+#side #panel_Category table {
+  margin-bottom: 11px;
+}
+#side #panel_Category p {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+#side #panel_Category li {
+  margin-bottom: 9px;
+}
+#side #panel_Category li span {
+  margin-left: 8px;
+}
+
+
+
+div.footer{
+	text-align:center;
+	background-color:black;
+	font-size:16px;
+	color:white;
+	display:inline-block;
+	width:100%;
+}
